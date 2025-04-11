@@ -1,0 +1,20 @@
+[project]
+title = "AI Job Market Insights"
+version = "0.1.0"
+port = 8501
+slug = "ai-job-market-insights"  # Unique identifier
+entrypoint = "hello.py"   # Your actual main script
+
+[branding]
+name = "AI Job Market Insights"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#007ACC"
+
+[data.ai_job_market_insights]
+type = "csv"
+path = "data/ai_job_market_insights.csv"  # Ensure this path is correct
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
